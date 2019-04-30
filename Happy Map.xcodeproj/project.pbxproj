@@ -15,6 +15,11 @@
 		79196E012278937100F7BF56 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79196DFF2278937100F7BF56 /* LaunchScreen.storyboard */; };
 		79196E0C2278937100F7BF56 /* Happy_MapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79196E0B2278937100F7BF56 /* Happy_MapTests.swift */; };
 		79196E172278937100F7BF56 /* Happy_MapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79196E162278937100F7BF56 /* Happy_MapUITests.swift */; };
+		79196E2622789B8500F7BF56 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79196E2522789B8500F7BF56 /* MapKit.framework */; };
+		79196E2822789FAC00F7BF56 /* HappyUpdate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79196E2722789FAC00F7BF56 /* HappyUpdate.swift */; };
+		79196E2A22789FBB00F7BF56 /* HappyStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79196E2922789FBB00F7BF56 /* HappyStore.swift */; };
+		79196E2C22789FCB00F7BF56 /* ImageStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79196E2B22789FCB00F7BF56 /* ImageStore.swift */; };
+		79196E2E2278BA3D00F7BF56 /* HappyAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79196E2D2278BA3D00F7BF56 /* HappyAnnotation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +54,11 @@
 		79196E122278937100F7BF56 /* Happy MapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Happy MapUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		79196E162278937100F7BF56 /* Happy_MapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Happy_MapUITests.swift; sourceTree = "<group>"; };
 		79196E182278937100F7BF56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79196E2522789B8500F7BF56 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		79196E2722789FAC00F7BF56 /* HappyUpdate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HappyUpdate.swift; sourceTree = "<group>"; };
+		79196E2922789FBB00F7BF56 /* HappyStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HappyStore.swift; sourceTree = "<group>"; };
+		79196E2B22789FCB00F7BF56 /* ImageStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageStore.swift; sourceTree = "<group>"; };
+		79196E2D2278BA3D00F7BF56 /* HappyAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HappyAnnotation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79196E2622789B8500F7BF56 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,10 +90,12 @@
 		79196DE72278936F00F7BF56 = {
 			isa = PBXGroup;
 			children = (
+				79196E2D2278BA3D00F7BF56 /* HappyAnnotation.swift */,
 				79196DF22278936F00F7BF56 /* Happy Map */,
 				79196E0A2278937100F7BF56 /* Happy MapTests */,
 				79196E152278937100F7BF56 /* Happy MapUITests */,
 				79196DF12278936F00F7BF56 /* Products */,
+				79196E2422789B8500F7BF56 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +114,9 @@
 			children = (
 				79196DF32278936F00F7BF56 /* AppDelegate.swift */,
 				79196DF52278936F00F7BF56 /* ViewController.swift */,
+				79196E2722789FAC00F7BF56 /* HappyUpdate.swift */,
+				79196E2922789FBB00F7BF56 /* HappyStore.swift */,
+				79196E2B22789FCB00F7BF56 /* ImageStore.swift */,
 				79196DF72278936F00F7BF56 /* Main.storyboard */,
 				79196DFD2278937100F7BF56 /* Assets.xcassets */,
 				79196DFF2278937100F7BF56 /* LaunchScreen.storyboard */,
@@ -126,6 +142,14 @@
 				79196E182278937100F7BF56 /* Info.plist */,
 			);
 			path = "Happy MapUITests";
+			sourceTree = "<group>";
+		};
+		79196E2422789B8500F7BF56 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				79196E2522789B8500F7BF56 /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,9 +283,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79196E2E2278BA3D00F7BF56 /* HappyAnnotation.swift in Sources */,
 				79196DFC2278936F00F7BF56 /* Happy_Map.xcdatamodeld in Sources */,
+				79196E2822789FAC00F7BF56 /* HappyUpdate.swift in Sources */,
+				79196E2A22789FBB00F7BF56 /* HappyStore.swift in Sources */,
 				79196DF62278936F00F7BF56 /* ViewController.swift in Sources */,
 				79196DF42278936F00F7BF56 /* AppDelegate.swift in Sources */,
+				79196E2C22789FCB00F7BF56 /* ImageStore.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

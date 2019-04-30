@@ -17,6 +17,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        
+        // Inject HappyStore object
+        let viewController = window!.rootViewController as! ViewController
+        let happyStore = HappyStore()
+        viewController.happyStore = happyStore
+        
         return true
     }
 
