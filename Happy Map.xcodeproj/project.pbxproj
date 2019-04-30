@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		79196DF42278936F00F7BF56 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79196DF32278936F00F7BF56 /* AppDelegate.swift */; };
+		79196DF62278936F00F7BF56 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79196DF52278936F00F7BF56 /* ViewController.swift */; };
+		79196DF92278936F00F7BF56 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79196DF72278936F00F7BF56 /* Main.storyboard */; };
+		79196DFC2278936F00F7BF56 /* Happy_Map.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 79196DFA2278936F00F7BF56 /* Happy_Map.xcdatamodeld */; };
+		79196DFE2278937100F7BF56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79196DFD2278937100F7BF56 /* Assets.xcassets */; };
+		79196E012278937100F7BF56 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79196DFF2278937100F7BF56 /* LaunchScreen.storyboard */; };
+		79196E0C2278937100F7BF56 /* Happy_MapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79196E0B2278937100F7BF56 /* Happy_MapTests.swift */; };
+		79196E172278937100F7BF56 /* Happy_MapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79196E162278937100F7BF56 /* Happy_MapUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		79196E082278937100F7BF56 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79196DE82278936F00F7BF56 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79196DEF2278936F00F7BF56;
+			remoteInfo = "Happy Map";
+		};
+		79196E132278937100F7BF56 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79196DE82278936F00F7BF56 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79196DEF2278936F00F7BF56;
+			remoteInfo = "Happy Map";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		79196DF02278936F00F7BF56 /* Happy Map.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Happy Map.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		79196DF32278936F00F7BF56 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		79196DF52278936F00F7BF56 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		79196DF82278936F00F7BF56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		79196DFB2278936F00F7BF56 /* Happy_Map.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Happy_Map.xcdatamodel; sourceTree = "<group>"; };
+		79196DFD2278937100F7BF56 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		79196E002278937100F7BF56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		79196E022278937100F7BF56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79196E072278937100F7BF56 /* Happy MapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Happy MapTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		79196E0B2278937100F7BF56 /* Happy_MapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Happy_MapTests.swift; sourceTree = "<group>"; };
+		79196E0D2278937100F7BF56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79196E122278937100F7BF56 /* Happy MapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Happy MapUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		79196E162278937100F7BF56 /* Happy_MapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Happy_MapUITests.swift; sourceTree = "<group>"; };
+		79196E182278937100F7BF56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		79196DED2278936F00F7BF56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79196E042278937100F7BF56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79196E0F2278937100F7BF56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		79196DE72278936F00F7BF56 = {
+			isa = PBXGroup;
+			children = (
+				79196DF22278936F00F7BF56 /* Happy Map */,
+				79196E0A2278937100F7BF56 /* Happy MapTests */,
+				79196E152278937100F7BF56 /* Happy MapUITests */,
+				79196DF12278936F00F7BF56 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		79196DF12278936F00F7BF56 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				79196DF02278936F00F7BF56 /* Happy Map.app */,
+				79196E072278937100F7BF56 /* Happy MapTests.xctest */,
+				79196E122278937100F7BF56 /* Happy MapUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		79196DF22278936F00F7BF56 /* Happy Map */ = {
+			isa = PBXGroup;
+			children = (
+				79196DF32278936F00F7BF56 /* AppDelegate.swift */,
+				79196DF52278936F00F7BF56 /* ViewController.swift */,
+				79196DF72278936F00F7BF56 /* Main.storyboard */,
+				79196DFD2278937100F7BF56 /* Assets.xcassets */,
+				79196DFF2278937100F7BF56 /* LaunchScreen.storyboard */,
+				79196E022278937100F7BF56 /* Info.plist */,
+				79196DFA2278936F00F7BF56 /* Happy_Map.xcdatamodeld */,
+			);
+			path = "Happy Map";
+			sourceTree = "<group>";
+		};
+		79196E0A2278937100F7BF56 /* Happy MapTests */ = {
+			isa = PBXGroup;
+			children = (
+				79196E0B2278937100F7BF56 /* Happy_MapTests.swift */,
+				79196E0D2278937100F7BF56 /* Info.plist */,
+			);
+			path = "Happy MapTests";
+			sourceTree = "<group>";
+		};
+		79196E152278937100F7BF56 /* Happy MapUITests */ = {
+			isa = PBXGroup;
+			children = (
+				79196E162278937100F7BF56 /* Happy_MapUITests.swift */,
+				79196E182278937100F7BF56 /* Info.plist */,
+			);
+			path = "Happy MapUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		79196DEF2278936F00F7BF56 /* Happy Map */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79196E1B2278937100F7BF56 /* Build configuration list for PBXNativeTarget "Happy Map" */;
+			buildPhases = (
+				79196DEC2278936F00F7BF56 /* Sources */,
+				79196DED2278936F00F7BF56 /* Frameworks */,
+				79196DEE2278936F00F7BF56 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Happy Map";
+			productName = "Happy Map";
+			productReference = 79196DF02278936F00F7BF56 /* Happy Map.app */;
+			productType = "com.apple.product-type.application";
+		};
+		79196E062278937100F7BF56 /* Happy MapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79196E1E2278937100F7BF56 /* Build configuration list for PBXNativeTarget "Happy MapTests" */;
+			buildPhases = (
+				79196E032278937100F7BF56 /* Sources */,
+				79196E042278937100F7BF56 /* Frameworks */,
+				79196E052278937100F7BF56 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				79196E092278937100F7BF56 /* PBXTargetDependency */,
+			);
+			name = "Happy MapTests";
+			productName = "Happy MapTests";
+			productReference = 79196E072278937100F7BF56 /* Happy MapTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		79196E112278937100F7BF56 /* Happy MapUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79196E212278937100F7BF56 /* Build configuration list for PBXNativeTarget "Happy MapUITests" */;
+			buildPhases = (
+				79196E0E2278937100F7BF56 /* Sources */,
+				79196E0F2278937100F7BF56 /* Frameworks */,
+				79196E102278937100F7BF56 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				79196E142278937100F7BF56 /* PBXTargetDependency */,
+			);
+			name = "Happy MapUITests";
+			productName = "Happy MapUITests";
+			productReference = 79196E122278937100F7BF56 /* Happy MapUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		79196DE82278936F00F7BF56 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Paul Baker";
+				TargetAttributes = {
+					79196DEF2278936F00F7BF56 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					79196E062278937100F7BF56 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 79196DEF2278936F00F7BF56;
+					};
+					79196E112278937100F7BF56 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 79196DEF2278936F00F7BF56;
+					};
+				};
+			};
+			buildConfigurationList = 79196DEB2278936F00F7BF56 /* Build configuration list for PBXProject "Happy Map" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 79196DE72278936F00F7BF56;
+			productRefGroup = 79196DF12278936F00F7BF56 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				79196DEF2278936F00F7BF56 /* Happy Map */,
+				79196E062278937100F7BF56 /* Happy MapTests */,
+				79196E112278937100F7BF56 /* Happy MapUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		79196DEE2278936F00F7BF56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79196E012278937100F7BF56 /* LaunchScreen.storyboard in Resources */,
+				79196DFE2278937100F7BF56 /* Assets.xcassets in Resources */,
+				79196DF92278936F00F7BF56 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79196E052278937100F7BF56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79196E102278937100F7BF56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		79196DEC2278936F00F7BF56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79196DFC2278936F00F7BF56 /* Happy_Map.xcdatamodeld in Sources */,
+				79196DF62278936F00F7BF56 /* ViewController.swift in Sources */,
+				79196DF42278936F00F7BF56 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79196E032278937100F7BF56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79196E0C2278937100F7BF56 /* Happy_MapTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79196E0E2278937100F7BF56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79196E172278937100F7BF56 /* Happy_MapUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		79196E092278937100F7BF56 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 79196DEF2278936F00F7BF56 /* Happy Map */;
+			targetProxy = 79196E082278937100F7BF56 /* PBXContainerItemProxy */;
+		};
+		79196E142278937100F7BF56 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 79196DEF2278936F00F7BF56 /* Happy Map */;
+			targetProxy = 79196E132278937100F7BF56 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		79196DF72278936F00F7BF56 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79196DF82278936F00F7BF56 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		79196DFF2278937100F7BF56 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79196E002278937100F7BF56 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		79196E192278937100F7BF56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		79196E1A2278937100F7BF56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		79196E1C2278937100F7BF56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Happy Map/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.PaulBaker.Happy-Map";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		79196E1D2278937100F7BF56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Happy Map/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.PaulBaker.Happy-Map";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		79196E1F2278937100F7BF56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Happy MapTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.PaulBaker.Happy-MapTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Happy Map.app/Happy Map";
+			};
+			name = Debug;
+		};
+		79196E202278937100F7BF56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Happy MapTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.PaulBaker.Happy-MapTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Happy Map.app/Happy Map";
+			};
+			name = Release;
+		};
+		79196E222278937100F7BF56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Happy MapUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.PaulBaker.Happy-MapUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Happy Map";
+			};
+			name = Debug;
+		};
+		79196E232278937100F7BF56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Happy MapUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.PaulBaker.Happy-MapUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Happy Map";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		79196DEB2278936F00F7BF56 /* Build configuration list for PBXProject "Happy Map" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79196E192278937100F7BF56 /* Debug */,
+				79196E1A2278937100F7BF56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79196E1B2278937100F7BF56 /* Build configuration list for PBXNativeTarget "Happy Map" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79196E1C2278937100F7BF56 /* Debug */,
+				79196E1D2278937100F7BF56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79196E1E2278937100F7BF56 /* Build configuration list for PBXNativeTarget "Happy MapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79196E1F2278937100F7BF56 /* Debug */,
+				79196E202278937100F7BF56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79196E212278937100F7BF56 /* Build configuration list for PBXNativeTarget "Happy MapUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79196E222278937100F7BF56 /* Debug */,
+				79196E232278937100F7BF56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		79196DFA2278936F00F7BF56 /* Happy_Map.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				79196DFB2278936F00F7BF56 /* Happy_Map.xcdatamodel */,
+			);
+			currentVersion = 79196DFB2278936F00F7BF56 /* Happy_Map.xcdatamodel */;
+			path = Happy_Map.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 79196DE82278936F00F7BF56 /* Project object */;
+}
