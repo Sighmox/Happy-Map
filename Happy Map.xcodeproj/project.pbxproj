@@ -90,7 +90,6 @@
 		79196DE72278936F00F7BF56 = {
 			isa = PBXGroup;
 			children = (
-				79196E2D2278BA3D00F7BF56 /* HappyAnnotation.swift */,
 				79196DF22278936F00F7BF56 /* Happy Map */,
 				79196E0A2278937100F7BF56 /* Happy MapTests */,
 				79196E152278937100F7BF56 /* Happy MapUITests */,
@@ -113,6 +112,7 @@
 			isa = PBXGroup;
 			children = (
 				79196DF32278936F00F7BF56 /* AppDelegate.swift */,
+				79196E2D2278BA3D00F7BF56 /* HappyAnnotation.swift */,
 				79196DF52278936F00F7BF56 /* ViewController.swift */,
 				79196E2722789FAC00F7BF56 /* HappyUpdate.swift */,
 				79196E2922789FBB00F7BF56 /* HappyStore.swift */,

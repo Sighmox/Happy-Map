@@ -25,6 +25,11 @@ class ViewController: UIViewController, CLLocationManagerDelegate, MKMapViewDele
         locationManager!.requestWhenInUseAuthorization()
         happyMap!.delegate = self
         
+        for happy in happyStore!.happyUpdates {
+            let annotation = HappyAnnotation(happy: happy)
+            happyMap.addAnnotation(annotation)
+        }
+        
     }
     
 // This button add a happy place
